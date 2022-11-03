@@ -101,7 +101,7 @@
         android:layout_marginTop="8dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/textview_exercise_three_details"
-        tools:text="Deadlift" />
+        tools:text="Chin ups" />
 
     <TextView
         android:id="@+id/textview_exercise_four_weight"
@@ -110,7 +110,7 @@
         android:layout_marginStart="8dp"
         app:layout_constraintStart_toEndOf="@id/textview_exercise_four"
         app:layout_constraintTop_toTopOf="@+id/textview_exercise_four"
-        tools:text="40kg" />
+        tools:text="Bodyweight" />
 
     <TextView
         android:id="@+id/textview_exercise_four_details"
@@ -118,7 +118,7 @@
         android:layout_height="wrap_content"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textview_exercise_four"
-        tools:text="Ezpz" />
+        tools:text="Managed to do 4 in a row" />
 
     <TextView
         android:id="@+id/textview_exercise_five"
@@ -127,7 +127,7 @@
         android:layout_marginTop="8dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/textview_exercise_four_details"
-        tools:text="Deadlift" />
+        tools:text="Rows" />
 
     <TextView
         android:id="@+id/textview_exercise_five_weight"
@@ -136,7 +136,7 @@
         android:layout_marginStart="8dp"
         app:layout_constraintStart_toEndOf="@id/textview_exercise_five"
         app:layout_constraintTop_toTopOf="@+id/textview_exercise_five"
-        tools:text="40kg" />
+        tools:text="22.5kg" />
 
     <TextView
         android:id="@+id/textview_exercise_five_details"
@@ -144,6 +144,6 @@
         android:layout_height="wrap_content"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textview_exercise_five"
-        tools:text="Ezpz" />
+        tools:text="6 reps" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

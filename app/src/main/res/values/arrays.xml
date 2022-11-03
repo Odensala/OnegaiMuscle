@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="exercises_array">
+        <item>Bench press</item>
+        <item>Overhead press</item>
+        <item>Deadlift</item>
+        <item>Front squat</item>
+        <item>Bent over row</item>
+        <item>Chin ups</item>
+        <item>Dips</item>
+    </string-array>
+</resources>
