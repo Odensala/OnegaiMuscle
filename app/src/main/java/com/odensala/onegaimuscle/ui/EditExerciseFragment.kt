@@ -1,26 +1,26 @@
 package com.odensala.onegaimuscle.ui
 
 import android.os.Bundle
-import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.ArrayAdapter
 import android.widget.Spinner
+import androidx.fragment.app.Fragment
 import com.example.onegaimuscle.R
-import com.example.onegaimuscle.databinding.FragmentAddWorkoutBinding
+import com.example.onegaimuscle.databinding.FragmentEditWorkoutBinding
 
 
-class AddWorkoutFragment : Fragment(R.layout.fragment_add_workout) {
+class EditExerciseFragment : Fragment(R.layout.fragment_edit_workout) {
 
-    private var _binding: FragmentAddWorkoutBinding? = null
+    private var _binding: FragmentEditWorkoutBinding? = null
     private val binding get() = _binding!!
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View {
-        _binding = FragmentAddWorkoutBinding.inflate(inflater, container, false)
+        _binding = FragmentEditWorkoutBinding.inflate(inflater, container, false)
         val spinner: Spinner = binding.spinnerWorkouts
         ArrayAdapter.createFromResource(
             requireContext(), R.array.exercises_array,

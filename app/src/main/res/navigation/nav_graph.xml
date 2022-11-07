@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/progressFragment"
-        android:name="com.odensala.onegaimuscle.ui.WorkoutFragment"
+        android:name="com.odensala.onegaimuscle.ui.ExerciseFragment"
         android:label="fragment_progress"
         tools:layout="@layout/fragment_workout" >
         <action
@@ -16,7 +16,7 @@
     </fragment>
     <fragment
         android:id="@+id/addWorkoutFragment"
-        android:name="com.odensala.onegaimuscle.ui.AddWorkoutFragment"
+        android:name="com.odensala.onegaimuscle.ui.AddExerciseFragment"
         android:label="fragment_add_workout"
         tools:layout="@layout/fragment_add_workout" />
 </navigation>

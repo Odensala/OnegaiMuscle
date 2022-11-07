@@ -6,7 +6,7 @@ import androidx.room.PrimaryKey
 import kotlinx.parcelize.Parcelize
 import java.text.DateFormat
 
-@Entity
+@Entity (tableName = "exercise_table")
 @Parcelize
 data class Exercise(
     val name: String,
