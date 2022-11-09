@@ -3,20 +3,19 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/nav_graph"
-    app:startDestination="@id/progressFragment">
-
+    app:startDestination="@id/exerciseFragment">
     <fragment
-        android:id="@+id/progressFragment"
+        android:id="@+id/exerciseFragment"
         android:name="com.odensala.onegaimuscle.ui.ExerciseFragment"
-        android:label="fragment_progress"
-        tools:layout="@layout/fragment_workout" >
+        android:label="fragment_exercise"
+        tools:layout="@layout/fragment_exercise" >
         <action
-            android:id="@+id/action_progressFragment_to_addWorkoutFragment"
-            app:destination="@id/addWorkoutFragment" />
+            android:id="@+id/action_exerciseFragment_to_addExerciseFragment"
+            app:destination="@id/addExerciseFragment" />
     </fragment>
     <fragment
-        android:id="@+id/addWorkoutFragment"
+        android:id="@+id/addExerciseFragment"
         android:name="com.odensala.onegaimuscle.ui.AddExerciseFragment"
-        android:label="fragment_add_workout"
-        tools:layout="@layout/fragment_add_workout" />
+        android:label="fragment_add_exercise"
+        tools:layout="@layout/fragment_add_exercise" />
 </navigation>

@@ -6,12 +6,12 @@
     tools:context="com.odensala.onegaimuscle.ui.ExerciseFragment">
 
     <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/recycler_view_workouts"
+        android:id="@+id/recycler_view_exercises"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
-        android:id="@+id/fab_add_workout"
+        android:id="@+id/fab_add_exercise"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="bottom|end"

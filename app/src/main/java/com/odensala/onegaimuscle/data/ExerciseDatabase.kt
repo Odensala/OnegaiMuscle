@@ -3,7 +3,7 @@ package com.odensala.onegaimuscle.data
 import androidx.room.Database
 import androidx.room.RoomDatabase
 import androidx.sqlite.db.SupportSQLiteDatabase
-import com.odensala.onegaimuscle.di.AppModule
+import com.odensala.onegaimuscle.di.ApplicationScope
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.launch
 import javax.inject.Inject
@@ -15,7 +15,7 @@ abstract class ExerciseDatabase : RoomDatabase() {
 
     class Callback @Inject constructor(
         private val exerciseDao: Provider<ExerciseDao>,
-        @AppModule.ApplicationScope private val applicationScope: CoroutineScope
+        @ApplicationScope private val applicationScope: CoroutineScope
     ) : RoomDatabase.Callback() {
         override fun onCreate(db: SupportSQLiteDatabase) {
             super.onCreate(db)

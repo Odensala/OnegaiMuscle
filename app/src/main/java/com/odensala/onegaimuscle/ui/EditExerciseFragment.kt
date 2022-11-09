@@ -8,19 +8,19 @@ import android.widget.ArrayAdapter
 import android.widget.Spinner
 import androidx.fragment.app.Fragment
 import com.example.onegaimuscle.R
-import com.example.onegaimuscle.databinding.FragmentEditWorkoutBinding
+import com.example.onegaimuscle.databinding.FragmentEditExerciseBinding
 
 
-class EditExerciseFragment : Fragment(R.layout.fragment_edit_workout) {
+class EditExerciseFragment : Fragment(R.layout.fragment_edit_exercise) {
 
-    private var _binding: FragmentEditWorkoutBinding? = null
+    private var _binding: FragmentEditExerciseBinding? = null
     private val binding get() = _binding!!
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View {
-        _binding = FragmentEditWorkoutBinding.inflate(inflater, container, false)
+        _binding = FragmentEditExerciseBinding.inflate(inflater, container, false)
         val spinner: Spinner = binding.spinnerWorkouts
         ArrayAdapter.createFromResource(
             requireContext(), R.array.exercises_array,
