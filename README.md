@@ -2,7 +2,7 @@
 # Onegai Muscle
 Fitness tracking app  with MVVM and the latest Android architecture components. 
 # Features
-- Easily keep track of your progressive overload progress
+- Easily keep track of your progressive overload progress.
 # Key components
 - MVVM
 - Coroutines
