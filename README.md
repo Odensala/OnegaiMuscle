@@ -10,5 +10,6 @@ Fitness tracking app  with MVVM and the latest Android architecture components.
 - Room
 - Dagger Hilt
 # Planned features
-- Material 3
+- Search functionality
 - Meal tracking
+- Material 3
