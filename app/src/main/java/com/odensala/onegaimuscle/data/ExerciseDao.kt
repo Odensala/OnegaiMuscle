@@ -10,8 +10,8 @@ import kotlinx.coroutines.flow.Flow
 
 @Dao
 interface ExerciseDao {
-    @Query("SELECT * FROM exercise_table")
-    fun getExercises(): Flow<List<Exercise>>
+    @Query("SELECT * FROM exercise_table WHERE name LIKE '%' || :searchQuery || '%'")
+    fun getExercises(searchQuery: String): Flow<List<Exercise>>
 
     @Insert(onConflict = OnConflictStrategy.REPLACE)
     suspend fun insert(exercise: Exercise)

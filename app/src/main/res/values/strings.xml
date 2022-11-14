@@ -1,9 +1,5 @@
 <resources>
     <string name="app_name">OnegaiMuscle</string>
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
-    <string name="add_workout">Add workout</string>
-    <string name="save_workout">Save workout</string>
     <string name="details">Details</string>
     <string name="header_add_exercise">Add exercise</string>
     <string name="title_exercise">Exercise</string>
@@ -11,4 +7,11 @@
     <string name="header_edit_exercise">Edit exercise</string>
     <string name="hint_weight">0</string>
     <string name="kg">kg</string>
+    <!--Content description-->
+    <string name="save_exercise">Save exercise</string>
+    <string name="add_exercise">Add exercise</string>
+    <!--ActionBar-->
+    <string name="search">Search</string>
+    <string name="sort">Sort</string>
+    <string name="sort_by_date">Sort by date</string>
 </resources>
