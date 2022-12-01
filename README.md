@@ -10,7 +10,7 @@ Exercise tracking app with MVVM and the latest Android architecture components.
 - Flow
 - Room
 - Dagger Hilt
+- Material 3
 - Unit tests
 ## Planned features
 - Meal tracking
-- Material 3
