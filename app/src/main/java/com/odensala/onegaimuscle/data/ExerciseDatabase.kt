@@ -33,6 +33,17 @@ abstract class ExerciseDatabase : RoomDatabase() {
                         "bruh these are still hard at 2kg lmao"
                     )
                 )
+                dao.insert(Exercise("Bench press", "22,5kg", "Ezpz"))
+                dao.insert(Exercise("Dips", "bodyweight", "8 on first set, 6 on second"))
+                dao.insert(Exercise("Dumbbell incline  skullcrushers", "7kg", "A bit shaky"))
+                dao.insert(Exercise("Dumbbell curls", "10kg", "8 on first set, 5 on second"))
+                dao.insert(
+                    Exercise(
+                        "Dumbbell lateral rows",
+                        "2kg",
+                        "bruh these are still hard at 2kg lmao"
+                    )
+                )
             }
         }
     }
